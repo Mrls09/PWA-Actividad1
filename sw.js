@@ -4,6 +4,7 @@ self.addEventListener('install',(event)=>{
     console.log('SW: Instalado');
 });
 
+/*
 self.addEventListener('fetch', (event)=>{
     console.log(event.request.url);
 
@@ -21,5 +22,4 @@ self.addEventListener('fetch', (event)=>{
         );
         event.respondWith(respuesta);
     }
-
-})
+})*/
